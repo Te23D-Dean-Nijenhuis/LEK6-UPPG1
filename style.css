@@ -1,5 +1,59 @@
-.allting
+
+
+
+
+body
 {
-    display:grid;
-    grid-template-columns: 25% 75%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 3fr 1fr;
+
+}
+
+main
+{
+    text-align: center;
+    background-color: blanchedalmond;
+    border: 5px solid orangered;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+}
+img
+{
+    background-color: blanchedalmond;
+    border: 5px solid orangered;
+    max-width: 250px;
+}
+header
+{
+    text-align: center;
+    background-color: blanchedalmond;
+    border: 5px solid orangered;
+}
+nav
+{
+    text-align: center;
+    background-color: blanchedalmond;
+    border: 5px solid orangered;
+}
+footer
+{
+    text-align: center;
+    background-color: blanchedalmond;
+    border: 5px solid orangered;
+}
+aside
+{
+    text-align: center;
+    background-color: blanchedalmond;
+    border: 5px solid orangered;
+}
+.artikel
+{
+    text-align: center;
+    background-color: blanchedalmond;
+    border: 5px solid orangered;
+    margin: 20px;
 }
